@@ -1,0 +1,101 @@
+* {
+  color: white;
+  user-select: none;
+  background-color: #24252e;
+  margin: 0;
+  padding: 0;
+}
+/* heading */
+#header {
+  font-family: "Open Sans", sans-serif;
+  background: white;
+  text-align: center;
+  color: #24252e;
+  font-size: 1.5rem;
+  padding: 10px 0px;
+}
+#board {
+  margin-top: 10px;
+  position: relative;
+  width: 22%;
+  border: 2px solid white;
+  margin: 10px auto;
+  height: 63px;
+  font-size: 46px;
+  text-align: center;
+  padding: 4px;
+}
+/* score board */
+.name {
+  position: absolute;
+  /*top: 0px;
+  left: 0px;*/
+  background: #db4d42;
+  font-size: 14px;
+  padding: 2px 5px;
+  z-index: 10;
+}
+
+#user {
+  top: 27px;
+  left: -20px;
+}
+
+#comp {
+  top: 27px;
+  right: -20px;
+}
+/* result text */
+
+#tell {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+/* stone paper scissor option */
+#option {
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+  margin: 3px 54px;
+  pointer-events: all;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.options:hover {
+  box-shadow: 3px 1px 12px grey;
+}
+.options img {
+  width: 100px;
+  height: 100px;
+  margin: 23px 20px 23px 21px;
+}
+/* #rock img {
+  width: 90px;
+  height: 100px;
+}
+#paper img {
+  width: 90px;
+  height: 100px;
+}
+#scissor img {
+  width: 90px;
+  height: 100px;
+} */
+
+/* footer */
+#last {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}

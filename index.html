@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:650px)" href="css/phone.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="header">Stone Paper Scissor</h1>
+    <div id="board">
+      <span id="user" class="name"> User </span>
+      <div id="score">
+        <span id="user-score">0</span>
+        <span id="colon">:</span>
+        <span id="comp-score">0</span>
+      </div>
+      <span id="comp" class="name">Comp</span>
+    </div>
+    <div id="tell">Chose A Option Below</div>
+    <div id="option">
+      <div id="rock" class="options" onclick="cr()">
+        <img src="img/rock.png" alt="Stone" />
+      </div>
+      <div id="paper" class="options" onclick="cp()">
+        <img src="img/paper.png" alt="paper" />
+      </div>
+      <div id="scissor" class="options" onclick="cs()">
+        <img src="img/scissor.png" alt="Scissor" />
+      </div>
+    </div>
+    <section id="last">Make Your Move</section>
+
+    <!-- script -->
+    <script src="js/app.js" async></script>
+  </body>
+</html>
